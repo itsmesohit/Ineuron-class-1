@@ -8,6 +8,7 @@
 </head>
 <body>
     <!-- These are heading tags from h1 ,h2,h3...h6 -->
+    <h1></h1>
     <h1>Good morning from h1</h1>
     <h2>This is h2 heading.</h2>
 
@@ -15,7 +16,10 @@
 
     <!-- Paragraph -->
     <p>This is a paragraph tag</p>
-    <img src="./img/post .png" width="540px" height="540px" alt="Good marning image" srcset="this is just extra url">
+    <img src="./img/post .png" download width="540px" height="540px" alt="Good marning image" srcset="this is just extra url">
+    <p>New let's try Audio</p>
+    <audio controls src="./img/Hara Hara Shambhu(PagalWorld.com.se).mp3"></audio>
+    <p>Audio ends.</p>
     <!-- formatting tag -->
     <b>BOld tag </b>
     <strong>THis is someting important </strong>
@@ -52,6 +56,15 @@
         <li>Now I have multiple unordered Lists</li>
     </ul>
 
+    
+    
+    <strike>This is Strike tag only </strike>
+    <br>
+    <strike>😒</strike><span>  😂</span>
+
+    <a href="https://www.codingspark.in/" target="_blank">codingspark</a>
+    
+
     <ul type="circle">
         <li>Now I have multiple unordered Lists</li>
         <li>Now I have multiple unordered Lists</li>
@@ -59,14 +72,61 @@
         <li>Now I have multiple unordered Lists</li>
         <li>Now I have multiple unordered Lists</li>
     </ul>
-    
-    <strike>This is Strike tag only </strike>
-    <br>
-    <strike>😒</strike><span>  😂</span>
 
-    <a href="https://www.codingspark.in/" target="_blank">codingspark</a>
+    <!-- <video width="540px" height="540px"  controls src="./img/post .mp4"></video> -->
 
-    
+
+    <!-- Now let's try forms and tanles -->
+
+
+    <!-- Table is going to start -->
+
+
+    <table border="3">
+        <tr>
+            <td>Sr. NO</td>
+            <td>Name</td>
+            <td>Course</td>
+            <td>location</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Sohit</td>
+            <td>Btech</td>
+            <td rowspan="3">Delhi</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>Ramesh Pillai</td>
+            <td>MBA</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td colspan="2">Ramesh Kushwaha</td>
+            
+        </tr>
+    </table>
+
+    <!-- Now its time for forms  -->
+    <h2>Now let's learn about the forms in HTML 5.0</h2>
+
+    <form action="#">
+        Name: <input type="text" name="Name" id="_name" placeholder="Please write your name here..."/><br>
+        Email: <input type="email" name="email" id="_email" placeholder="Please write your mail here"><br>
+        Password: <input type="password" name="password" id="_pass" placeholder="Please write your mail here"><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" value="male" id="_gender" />male
+        <input type="radio" name="gender" id="_gender" value="female" /> Female
+        <br>
+        Coding : <br>
+        <input type="checkbox" name="lang" id="_lang" value="html" /> HTML <br>
+        <input type="checkbox" name="lang" id="_lang" value="css" /> CSS <br>
+        <input type="checkbox" name="lang" id="_lang"  value="javascript"/> JavaScript <br>
+        <input type="checkbox" name="lang" id="_lang" value="react" /> React <br>
+
+        <button type="submit">Submit</button>
+
+    </form>
 
 </body>
 
